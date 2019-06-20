@@ -1,1 +1,1 @@
-Local maillist plugin for OctoberCMS
+Local maillist plugin for OctoberCMS - Under development
