@@ -1,0 +1,4 @@
+1.0.1: First version of LocalMaillist
+1.0.2:
+  - Create the Maillist table
+  - create_maillists_table.php

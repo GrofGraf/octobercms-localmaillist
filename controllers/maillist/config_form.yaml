@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Maillist
+
+# Model Form Field configuration
+form: $/grofgraf/localmaillist/models/maillist/fields.yaml
+
+# Model Class name
+modelClass: GrofGraf\LocalMaillist\Models\Maillist
+
+# Default redirect location
+defaultRedirect: grofgraf/localmaillist/maillist
+
+# Create page
+create:
+    title: Create Maillist
+    redirect: grofgraf/localmaillist/maillist/update/:id
+    redirectClose: grofgraf/localmaillist/maillist
+
+# Update page
+update:
+    title: Edit Maillist
+    redirect: grofgraf/localmaillist/maillist
+    redirectClose: grofgraf/localmaillist/maillist
+
+# Preview page
+preview:
+    title: Preview Maillist

@@ -1,0 +1,34 @@
+# ===================================
+#  Import/Export Behavior Config
+# ===================================
+
+import:
+    # Page title
+    title: "Import contacts"
+
+    # Import List Column configuration
+    list: $/grofgraf/localmaillist/models/maillistimport/columns.yaml
+
+    # Import Form Field configuration
+    form: $/grofgraf/localmaillist/models/maillistimport/fields.yaml
+
+    # Import Model class
+    modelClass: GrofGraf\LocalMaillist\Models\MaillistImport
+
+    # Redirect when finished
+    redirect: grofgraf/localmaillist/maillist
+
+export:
+    # Page title
+    title: "Export contacts"
+    # Output file name
+    fileName: contacts.csv
+
+    # Export List Column configuration
+    list: $/grofgraf/localmaillist/models/maillistexport/columns.yaml
+
+    # Export Model class
+    modelClass: GrofGraf\LocalMaillist\Models\MaillistExport
+
+    # Redirect when finished
+    redirect: grofgraf/localmaillist/maillist

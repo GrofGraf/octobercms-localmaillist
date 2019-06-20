@@ -1,0 +1,13 @@
+# ===================================
+#  Column Definitions
+# ===================================
+
+columns:
+
+    id: id
+    maillist: maillist
+    name: name
+    email: email
+    subscribed: subscribed
+    created_at: created_at
+    updated_at: updated_at

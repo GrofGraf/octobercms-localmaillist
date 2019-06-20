@@ -1,0 +1,13 @@
+<div class="confirm-subscribe-container">
+</div>
+<form data-request="{{ __SELF__ }}::onSubscribe"
+      data-request-update="'{{ __SELF__ }}::confirm': '.confirm-subscribe-container'"
+      class="subscription-form"
+      >
+  <div class="input-group">
+    <input type="email" class="form-control" placeholder="{{localmaillist.placeholder_text}}" id="subscribe_email" name="email">
+    <span class="input-group-btn">
+      <button type="submit" class="btn btn-primary">{{localmaillist.button_text}}</button>
+    </span>
+  </div>
+</form>

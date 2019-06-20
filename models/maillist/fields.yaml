@@ -1,0 +1,27 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    maillist:
+        label: Maillist
+        disabled: false
+    name:
+        label: Name
+        disabled: false
+    email:
+        label: Email
+        disabled: false
+    subscribed:
+        label: Subscribed
+        disabled: false
+        type: switch
+    created_at:
+        label: Created at
+        disabled: true
+    updated_at:
+        label: Updated at
+        disabled: true

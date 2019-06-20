@@ -1,0 +1,12 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+
+    update_existing:
+        label: Update existing contacts
+        comment: Check this box to update contacts that have exactly the same title and maillist 
+        type: checkbox
+        default: true
+        span: left

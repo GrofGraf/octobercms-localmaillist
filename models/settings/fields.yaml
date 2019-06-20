@@ -1,0 +1,41 @@
+tabs:
+  fields:
+    maillist_title:
+      label: 'Maillist Title'
+      comment: 'A title of mailing list for subscription'
+      type: text
+      default: maillist
+      tab: General
+    subscribe_button_text:
+      label: 'Subscribe Button Text'
+      comment: 'Text for subscribe button'
+      type: text
+      default: Subscribe
+      tab: General
+    subscribe_placeholder_text:
+      label: 'Input Placeholder Text'
+      comment: 'Text for subscribe input placeholder'
+      type: text
+      default: "Enter your email"
+      tab: General
+    subscribe_confirmation_text:
+      label: 'Confirmation Text'
+      comment: 'Confirmation Text after successful subscription'
+      type: richeditor
+      default: "You successfully subscribed to our maillist."
+      tab: General
+    enable_auto_reply:
+      label: "Enable Auto-Reply"
+      comment: "Enable automatic reply email"
+      type: switch
+      tab: Auto-Reply
+    auto_reply_subject:
+      label: "Auto-Reply Subject"
+      comment: "Subject of automatic reply email"
+      type: text
+      tab: Auto-Reply
+    auto_reply_content:
+      label: "Auto-Reply Content"
+      comment: "Content of automatic reply email"
+      type: richeditor
+      tab: Auto-Reply
