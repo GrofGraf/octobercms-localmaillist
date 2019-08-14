@@ -12,22 +12,22 @@ class Settings extends Model
     ];
 
     public $translatable = [
-      'subscribe_button_text',
-      'subscribe_confirmation_text',
-      'subscribe_placeholder_text',
+      'button_text',
+      'confirmation_text',
+      'placeholder_text',
       'auto_reply_subject',
       'auto_reply_content'
     ];
 
     public $rules = [
-      'subscribe_button_text' => ['required'],
+      'button_text' => ['required'],
       'confirmation_text' => ['required'],
       'auto_reply_subject' => ['required_if:enable_auto_reply,1'],
       'auto_reply_content' => ['required_if:enable_auto_reply,1'],
     ];
 
     // A unique code
-    public $settingsCode = 'local_maillist_settings';
+    public $settingsCode = 'settings';
 
     // Reference to field configuration
     public $settingsFields = 'fields.yaml';

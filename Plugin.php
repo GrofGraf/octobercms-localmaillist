@@ -78,7 +78,7 @@ class Plugin extends PluginBase
               'label'       => 'Local Maillist',
               'description' => 'Settings for maillist subscription',
               'category'    => 'Marketing',
-              'icon'        => 'icon-envelope',
+              'icon'        => 'icon-envelope-square',
               'class'       => 'GrofGraf\LocalMaillist\Models\Settings',
               'order'       => 100,
               'permissions' => ['grofgraf.localmaillist.settings']
@@ -101,6 +101,13 @@ class Plugin extends PluginBase
                 'permissions' => ['grofgraf.localmaillist.*'],
                 'order'       => 500,
             ],
+        ];
+    }
+
+    public function registerMailTemplates()
+    {
+        return [
+            'grofgraf.localmaillist::emails.subscription-information' => 'Mail template for auto reply on maillist subscription',
         ];
     }
 }

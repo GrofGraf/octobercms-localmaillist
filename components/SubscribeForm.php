@@ -42,8 +42,8 @@ class SubscribeForm extends ComponentBase
         $this->addJs('assets/js/main.js');
       }
       $this->page['localmaillist'] = [
-        'button_text' => Settings::instance()->subscribe_button_text ?: "Subscribe",
-        'placeholder_text' => Settings::instance()->subscribe_placeholder_text ?: "Enter your email"
+        'button_text' => Settings::instance()->button_text ?: "Subscribe",
+        'placeholder_text' => Settings::instance()->placeholder_text ?: "Enter your email"
       ];
     }
 

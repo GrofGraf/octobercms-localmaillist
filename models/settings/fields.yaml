@@ -6,19 +6,19 @@ tabs:
       type: text
       default: maillist
       tab: General
-    subscribe_button_text:
+    button_text:
       label: 'Subscribe Button Text'
       comment: 'Text for subscribe button'
       type: text
       default: Subscribe
       tab: General
-    subscribe_placeholder_text:
+    placeholder_text:
       label: 'Input Placeholder Text'
       comment: 'Text for subscribe input placeholder'
       type: text
       default: "Enter your email"
       tab: General
-    subscribe_confirmation_text:
+    confirmation_text:
       label: 'Confirmation Text'
       comment: 'Confirmation Text after successful subscription'
       type: richeditor
