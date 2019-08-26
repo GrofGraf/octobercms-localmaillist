@@ -45,7 +45,7 @@ If the default partial is not suitable for your website, replace the component t
 
 
 The example uses standard partial `{{ __SELF__ }}::confirm` for displaying the subscription confirmation message. Confirmation message will be displayed in
-`.confirm-contact-container`. The default partial located in `plugins/grofgraf/localmaillist/components/subscribeform/confirm.htm`.
+`.confirm-subscribe-container`. The default partial located in `plugins/grofgraf/localmaillist/components/subscribeform/confirm.htm`.
 
 Email templates auto-reply can be customized under **Settings > Mail > Mail Templates**
 

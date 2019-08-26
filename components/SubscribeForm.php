@@ -5,6 +5,7 @@ use GrofGraf\LocalMaillist\Models\Maillist;
 use GrofGraf\LocalMaillist\Models\Settings;
 use Validator;
 use ValidationException;
+use Mail;
 
 class SubscribeForm extends ComponentBase
 {
